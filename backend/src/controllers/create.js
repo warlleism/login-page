@@ -30,7 +30,7 @@ const CreateUser = async (req, res) => {
         const user = await User.create({ name, email, password })
 
 
-        return res.status(200).send({ status: 200, sucess: 'Castrado com sucesso' });
+        return res.status(200).send({ status: 200, sucess: 'Cadastrado com sucesso' });
 
 
     } catch (err) {
